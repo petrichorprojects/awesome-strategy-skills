@@ -1,6 +1,6 @@
 # Awesome Strategy Skills [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-<!--lint disable awesome-list-item awesome-toc double-link table-cell-padding table-pipe-alignment-->
+<!--lint disable awesome-github awesome-list-item awesome-toc double-link table-cell-padding table-pipe-alignment-->
 
 [![Quality](https://github.com/petrichorprojects/awesome-strategy-skills/actions/workflows/quality.yml/badge.svg)](https://github.com/petrichorprojects/awesome-strategy-skills/actions/workflows/quality.yml)
 [![Last update](https://img.shields.io/github/last-commit/petrichorprojects/awesome-strategy-skills?label=last%20review)](https://github.com/petrichorprojects/awesome-strategy-skills/commits/main)
