@@ -43,7 +43,7 @@ jobs:
 
       - name: Open link-check issue
         if: failure() && github.event_name == 'schedule'
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue-from-file@v6
         with:
           title: "Weekly catalog quality check failed"
           content-filepath: .github/quality-failure.md
