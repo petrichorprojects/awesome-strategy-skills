@@ -1,0 +1,78 @@
+name: Nominate a strategy skill
+description: Propose a skill or collection for editorial review.
+title: "Nomination: "
+labels:
+  - nomination
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Inclusion is editorial, cannot be purchased, and requires more than popularity. Please read the editorial policy before nominating.
+  - type: input
+    id: source
+    attributes:
+      label: Canonical source URL
+      placeholder: https://github.com/owner/repository/tree/main/path/to/skill
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Skill or collection name
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: What consequential decision does it improve?
+      description: Name the user, decision, and output.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Why is it excellent?
+      description: Point to evidence discipline, workflow, pressure testing, and concrete outputs.
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      placeholder: MIT, Apache-2.0, CC-BY-4.0
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Known limitations or risks
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Your relationship to the project
+      options:
+        - No relationship
+        - Author or maintainer
+        - Contributor
+        - User or customer
+        - Commercial relationship
+        - Other relationship disclosed below
+    validations:
+      required: true
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: Disclosure details
+      description: Explain any authorship, employment, sponsorship, investment, affiliate, client, or other relevant relationship.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have read the source closely enough to explain why it belongs.
+          required: true
+        - label: I understand that nomination does not guarantee inclusion or placement.
+          required: true
+

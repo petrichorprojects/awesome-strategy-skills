@@ -1,0 +1,35 @@
+name: Report an entry problem
+description: Report a broken, stale, unsafe, misleading, or improperly licensed entry.
+title: "Entry review: "
+labels:
+  - maintenance
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry URL
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem type
+      options:
+        - Broken or redirected link
+        - Stale or archived project
+        - Material quality regression
+        - Security or safety concern
+        - License or provenance concern
+        - Misleading description
+        - Undisclosed conflict of interest
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Include reproducible details without publishing an unpatched exploit or sensitive data.
+    validations:
+      required: true
+

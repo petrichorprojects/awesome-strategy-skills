@@ -1,0 +1,51 @@
+name: Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "17 13 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Validate structured catalog
+        run: python3 scripts/validate_catalog.py
+
+      - name: Lint Awesome list
+        run: npx --yes awesome-lint
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml --no-progress --verbose "**/*.md" "data/catalog.json"
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open link-check issue
+        if: failure() && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Weekly catalog quality check failed"
+          content-filepath: .github/quality-failure.md
+          labels: maintenance
+
