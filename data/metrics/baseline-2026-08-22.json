@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-08-22T00:00:00-04:00",
+  "period": "pre-launch",
+  "repository": "petrichorprojects/awesome-strategy-skills",
+  "repository_created_at": "2026-08-21T05:29:06Z",
+  "counts": {
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "traffic_views": 0,
+    "traffic_unique_visitors": 0,
+    "clones": 28,
+    "unique_cloners": 17
+  },
+  "top_referrers": [],
+  "top_paths": [],
+  "notes": [
+    "Captured before public launch distribution.",
+    "Clone activity includes repository setup and automated validation traffic and should not be interpreted as organic demand.",
+    "GitHub traffic metrics cover the API's rolling retention window."
+  ]
+}
+

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome Strategy Skills</title>
+  <desc id="desc">An evidence-led index of AI-agent skills for consequential decisions, maintained by Petrichor Projects.</desc>
+  <rect width="1280" height="640" fill="#f2efe7"/>
+  <rect width="22" height="640" fill="#0b5d5b"/>
+  <circle cx="1160" cy="92" r="178" fill="#0b5d5b" opacity="0.08"/>
+  <circle cx="1110" cy="590" r="250" fill="#8a4b32" opacity="0.08"/>
+  <path d="M76 104H1204" stroke="#111111" stroke-opacity="0.22"/>
+  <path d="M76 542H1204" stroke="#111111" stroke-opacity="0.22"/>
+  <text x="76" y="78" fill="#0b5d5b" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" letter-spacing="3.5">PETRICHOR PROJECTS / OPEN INDEX 01</text>
+  <text x="76" y="247" fill="#111111" font-family="Georgia, 'Times New Roman', serif" font-size="83" font-weight="700">Awesome Strategy</text>
+  <text x="76" y="337" fill="#111111" font-family="Georgia, 'Times New Roman', serif" font-size="83" font-weight="700">Skills</text>
+  <text x="79" y="397" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="29">Evidence-led AI skills for consequential decisions.</text>
+  <g transform="translate(76 442)">
+    <rect width="236" height="43" rx="2" fill="#111111"/>
+    <text x="18" y="29" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="1.1">EVIDENCE DISCIPLINE</text>
+    <rect x="248" width="208" height="43" rx="2" fill="#0b5d5b"/>
+    <text x="266" y="29" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="1.1">PRESSURE TESTS</text>
+    <rect x="468" width="228" height="43" rx="2" fill="#8a4b32"/>
+    <text x="486" y="29" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="1.1">DECISION UTILITY</text>
+  </g>
+  <text x="1204" y="585" text-anchor="end" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="1.4">52 RECORDS · 9 CATEGORIES · OPEN EVALUATIONS</text>
+</svg>
