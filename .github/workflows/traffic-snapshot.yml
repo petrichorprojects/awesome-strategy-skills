@@ -1,0 +1,34 @@
+name: Traffic Snapshot
+
+on:
+  schedule:
+    - cron: "43 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Capture GitHub metrics
+        run: python3 scripts/capture_github_metrics.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload snapshot
+        uses: actions/upload-artifact@v6
+        with:
+          name: traffic-snapshot-${{ github.run_id }}
+          path: metrics-snapshot.json
+          retention-days: 90
+

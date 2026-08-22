@@ -30,6 +30,8 @@ Market research, positioning, product, go-to-market, pricing, growth, and execut
   - [Execution systems](#execution-systems)
 - [Collections and discovery](#collections-and-discovery)
 - [How curation works](#how-curation-works)
+- [Open evaluations](#open-evaluations)
+- [Measurement](#measurement)
 - [Safety](#safety)
 - [Contributing](#contributing)
 - [About Petrichor](#about-petrichor)
@@ -175,6 +177,18 @@ An entry must do more than contain the word “strategy.” We look for:
 Read the full [editorial policy](EDITORIAL-POLICY.md) and the evolving [Petrichor Strategy Skill Index rubric](evaluation/RUBRIC.md). The machine-readable [catalog](data/catalog.json) records review dates, status, category, source, and license.
 
 We optimize for trust per entry, not total entry count. Inclusion can be reversed when a project becomes stale, unsafe, misleading, or strategically generic.
+
+## Open evaluations
+
+The catalog publishes fixtures, pinned sources, complete outputs, dimension-level evidence, and conflicts—not unexplained scores.
+
+The first [positioning strategy pilot](evaluation/runs/2026-08-22-positioning-pilot/REPORT.md) compares Relevancy Audit, Positioning Craft, and Product Marketing Context on the same fictional positioning-decay decision. Its scores are explicitly provisional pending an independent second reviewer.
+
+**[Read the finding](evaluation/runs/2026-08-22-positioning-pilot/REPORT.md)** · **[Inspect the method](evaluation/runs/2026-08-22-positioning-pilot/METHOD.md)** · **[Challenge the scores](evaluation/runs/2026-08-22-positioning-pilot/SCORES.md)**
+
+## Measurement
+
+The repository has a public [measurement plan](docs/MEASUREMENT.md) and a pre-launch baseline. We track discovery, utility, authority, product interest, and commercial intent separately so stars are not mistaken for business impact.
 
 ## Safety
 

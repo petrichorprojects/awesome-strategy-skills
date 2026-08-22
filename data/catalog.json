@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "maintainer": "Petrichor Projects",
   "entries": [
     {
@@ -15,7 +15,8 @@
       "last_reviewed": "2026-08-21",
       "description": "Detects when positioning is solving yesterday's problem.",
       "why_included": "Requires evidence of market change and converts relevancy risk into a scored diagnostic and action path.",
-      "conflict": "Created and maintained by Petrichor Projects."
+      "conflict": "Created and maintained by Petrichor Projects.",
+      "evaluation": "evaluation/records/relevancy-audit/2026-08-22-positioning-decay-v1.md"
     },
     {
       "id": "positioning-under-pressure",
@@ -337,7 +338,8 @@
       "last_reviewed": "2026-08-21",
       "description": "Defines category, differentiated value, alternatives, and best-fit customers.",
       "why_included": "Uses an alternatives-first sequence that links evidence to a positioning decision.",
-      "conflict": "none"
+      "conflict": "none",
+      "evaluation": "evaluation/records/positioning-craft/2026-08-22-positioning-decay-v1.md"
     },
     {
       "id": "product-marketing",
@@ -351,7 +353,8 @@
       "last_reviewed": "2026-08-21",
       "description": "Builds shared audience, positioning, competitive, and messaging context.",
       "why_included": "Creates a reusable evidence base that constrains downstream marketing decisions.",
-      "conflict": "none"
+      "conflict": "none",
+      "evaluation": "evaluation/records/product-marketing/2026-08-22-positioning-decay-v1.md"
     },
     {
       "id": "strategy-frameworks",

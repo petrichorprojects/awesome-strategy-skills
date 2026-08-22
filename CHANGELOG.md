@@ -2,6 +2,12 @@
 
 All notable editorial and infrastructure changes are recorded here.
 
+## 2026-08-22
+
+- Added a pre-launch GitHub traffic baseline and decision-oriented measurement plan.
+- Added an automated weekly traffic snapshot workflow with 90-day artifacts.
+- Published the first reproducible positioning-strategy pilot with a fixture, pinned sources, complete outputs, evidence-level scores, and explicit conflicts.
+
 ## 2026-08-21
 
 - Created the public editorial catalog.
@@ -11,4 +17,3 @@ All notable editorial and infrastructure changes are recorded here.
 - Added the Petrichor Strategy Skill Index rubric and evaluation record template.
 - Added structured catalog validation, Markdown linting, and automated link checking.
 - Added contribution, editorial, security, conduct, and governance documentation.
-
