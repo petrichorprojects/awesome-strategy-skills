@@ -6,6 +6,7 @@ All notable editorial and infrastructure changes are recorded here.
 
 - Added a pre-launch GitHub traffic baseline and decision-oriented measurement plan.
 - Added an automated weekly traffic snapshot workflow with 90-day artifacts.
+- Made traffic capture require an explicit administrator token instead of failing with the restricted built-in Actions token.
 - Published the first reproducible positioning-strategy pilot with a fixture, pinned sources, complete outputs, evidence-level scores, and explicit conflicts.
 
 ## 2026-08-21

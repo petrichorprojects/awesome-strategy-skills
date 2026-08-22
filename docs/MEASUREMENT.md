@@ -26,6 +26,8 @@ Awesome Strategy Skills is a marketing asset only if it creates measurable trust
 
 GitHub traffic data is retained for a limited window, so the `Traffic Snapshot` workflow captures a weekly artifact.
 
+The traffic endpoints reject the built-in Actions token. To enable snapshots, add a repository administrator token that can read GitHub traffic endpoints as the Actions secret `TRAFFIC_TOKEN`. Until it is configured, the workflow exits successfully and records an explicit skip in the run summary.
+
 | Measure | Source | Cadence |
 |---|---|---|
 | Views and unique visitors | GitHub Traffic API | Weekly. |
@@ -80,4 +82,3 @@ The initial baseline is recorded in [`data/metrics/baseline-2026-08-22.json`](..
 - **Quarterly:** Backlinks, citations, independent reviews, qualified inquiries, and the State of AI Strategy Skills report.
 
 Success is not the largest possible star count. It is a growing ratio of qualified use, credible third-party participation, and measurable movement into Petrichor's diagnostic and consulting paths.
-
